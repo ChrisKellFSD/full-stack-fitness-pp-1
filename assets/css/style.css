@@ -44,3 +44,11 @@ h1, h2 {
     text-decoration: none;
     color: white;
 }
+
+#menu a:hover {
+    font-weight: 700;
+}
+
+.active {
+    font-weight: 900;
+}
