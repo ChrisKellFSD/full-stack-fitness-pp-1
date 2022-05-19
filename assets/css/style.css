@@ -54,3 +54,20 @@ h1, h2 {
 .active {
     font-weight: 900;
 }
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/main-gym-website-banner.jpg') no-repeat center center;
+    background-size: cover;
+    border-top-style: solid;
+    border-top-color: rgb(0, 222, 231);
+    border-top-width: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 222, 231);
+    border-bottom-width: 5px;
+}
+
+#opacity {
+    background-color: rgba(0, 0, 0, 2.8);
+}
