@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +13,9 @@ body {
 
 h1, h2 {
     font-family: Koulen, sans-serif;
-    color: crimson;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-transform: uppercase;
 }
 
 .top-nav {
@@ -68,6 +70,23 @@ h1, h2 {
     border-bottom-width: 5px;
 }
 
-#opacity {
-    background-color: rgba(0, 0, 0, 2.8);
+#services-main {
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+#hero-text {
+    font-size: 110%;
+    font-family: Poppins, serif;
+    text-transform: uppercase;
+    width: 289px;
+    height: 140px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 150px;
+    left: 50px;
+    position: absolute;
 }
