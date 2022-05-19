@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
 * {
     margin: 0;
@@ -9,13 +9,29 @@
 body {
     font-family: Lato, sans-serif;
     color: grey;
+    background-color: black;
 }
 
-h1, h2 {
+h1 {
+    font-family: Anton, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+
+h2 {
     font-family: Koulen, sans-serif;
     color: rgb(255, 255, 255);
-    font-size: xx-large;
     text-transform: uppercase;
+    font-size: xx-large;
+}
+
+h3 {
+    font-family: Koulen, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: large;
 }
 
 .top-nav {
@@ -57,6 +73,8 @@ h1, h2 {
     font-weight: 900;
 }
 
+/* Hero Image */
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -70,23 +88,58 @@ h1, h2 {
     border-bottom-width: 5px;
 }
 
-#services-main {
-    background-color: black;
-    height: 500px;
+
+#hero-text {
+    width: 310px;
+    height: 250px;
+    padding-left: 23px;
+    padding-top: 14px;
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: 127px;
+    left: 50px;
+    position: absolute;
+}
+
+/* Services */
+
+#services-heading {
+    height: auto;
     width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+article img {
+    width: 100%;
+    border-bottom: 4px solid rgb(0, 222, 231);
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+    background-color: black;
+}
+
+.social-networks {
     text-align: center;
 }
 
-#hero-text {
-    font-size: 110%;
-    font-family: Poppins, serif;
-    text-transform: uppercase;
-    width: 289px;
-    height: 140px;
-    padding-left: 20px;
-    padding-top: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    bottom: 150px;
-    left: 50px;
-    position: absolute;
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
 }
