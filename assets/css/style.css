@@ -136,7 +136,7 @@ article img {
 
 #gallery-container img {
     width: auto;
-    height: 35vh;
+    height: 50vh;
 }
 
 #gallery-container img:hover {
@@ -147,7 +147,7 @@ article img {
 /* Sign-Up */
 
 #sign-up-image {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background: url('../images/women-training-gym-full-shot.jpg') no-repeat center center;
     background-size: cover;
@@ -163,7 +163,7 @@ article img {
     margin: 10vh 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
+    max-width: 600px;
     position: absolute;
     height: auto;
     left: 10%;
@@ -187,23 +187,23 @@ article img {
 
 .submit-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
     color: #fafafa;
+    display: block;
 }
 
 /* Google Map */
 
-.google-map-wrap {
-    height: 30vh;
-    border-top: 4px solid rgb(0, 222, 231);
-}
-
 .google-map {
     width: 100%;
+    height: 40vh;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 222, 231);
+    border-bottom-width: 5px;
 }
 
 /* Footer */
@@ -211,7 +211,6 @@ article img {
 footer {
     height: 150px;
     background-color: black;
-    border-top: 4px solid rgb(0, 222, 231);
 }
 
 .social-networks {
