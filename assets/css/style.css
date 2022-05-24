@@ -18,7 +18,7 @@ h1 {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     font-size: 2.5rem;
-    letter-spacing: 4px;
+    letter-spacing: 0px;
 }
 
 h2 {
@@ -93,11 +93,11 @@ h3 {
 #hero-text {
     width: 310px;
     height: 250px;
-    padding-left: 23px;
-    padding-top: 14px;
-    background-color: rgba(0, 0, 0, 0.8);
-    bottom: 127px;
-    left: 50px;
+    margin-top: 20px;
+    padding-left: 34px;
+    padding-top: 59px;
+    background-color: rgba(0, 0, 0, 0.9);
+    bottom: 200px;
     position: absolute;
 }
 
@@ -122,6 +122,11 @@ h3 {
 article img {
     width: 100%;
     border-bottom: 4px solid rgb(0, 222, 231);
+}
+
+.services-container h3, p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Gallery */
@@ -149,7 +154,7 @@ article img {
 #sign-up-image {
     height: 110vh;
     width: 100%;
-    background: url('../images/women-training-gym-full-shot.jpg') no-repeat center center;
+    background: url('../images/young-girl-playing-dumbbell-exercise-fitness.jpg') no-repeat center center;
     background-size: cover;
     border-top-style: solid;
     border-top-color: rgb(0, 222, 231);
@@ -160,7 +165,7 @@ article img {
 }
 
 .signup-form {
-    margin: 10vh 10% 0 0;
+    margin: 20vh 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 600px;
@@ -191,7 +196,7 @@ article img {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: rgb(0, 222, 231);;
     color: #fafafa;
     display: block;
 }
