@@ -121,7 +121,7 @@ h3 {
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: rgb(6, 59, 61);
   }
 
 /* Services */
@@ -217,12 +217,18 @@ article img {
     margin-top: 20px;
     border-radius: 4px;
     padding: 15px 32px 15px 32px;
+    cursor: pointer;
     text-align: center;
     font-size: 100%;
-    background-color: rgb(0, 222, 231);;
+    background-color: rgb(0, 222, 231);
     color: #fafafa;
     display: block;
 }
+
+.submit-button:hover {
+    background-color: rgb(6, 59, 61);
+    font-weight: 700;
+  }
 
 /* Google Map */
 
@@ -237,7 +243,7 @@ article img {
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 70px;
     background-color: black;
 }
 
@@ -250,8 +256,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 100%;
     margin: 1%;
-    padding: 5%;
+    padding: 10px;
     color: #fafafa;
 }
