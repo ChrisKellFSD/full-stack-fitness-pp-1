@@ -21,13 +21,13 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Sign-up</a>
+                    <a href="#sign-up-section">Sign-up</a>
                 </li>
                 <li>
-                    <a href="#">Gallery</a>
+                    <a href="#gallery-section">Gallery</a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="#services-section">Services</a>
                 </li>
                 <li>
                     <a href="index.html" class="active">Home</a>
@@ -48,7 +48,7 @@
     <!--Services-->
 
     <section id="services-heading">
-        <h2>Services</h2>
+        <h2 id="services-section">Services</h2>
     </section>
     <section class="services-container">
         <article>
@@ -80,7 +80,7 @@
 <!--Gallery-->
 
     <section id="gallery-container">
-        <img src="./assets/images/blurred-cardio-machines.jpg" alt="Cardio Gym Equipment">
+        <img src="./assets/images/blurred-cardio-machines.jpg" alt="Cardio Gym Equipment" id="gallery-section">
         <img src="./assets/images/close-up-people-high-five-gym.jpg" alt="People having fun in the gym">
         <img src="./assets/images/girls-team-exercising-aerobics-together-gym.jpg" alt="Girls Excercising Together">
         <img src="./assets/images/pilates-group-working-out-gym.jpg" alt="Pilates Group Working Out">
@@ -91,7 +91,7 @@
 <!-- Adapted from CI: Signup Forms-Challenge-->
 
     <div id="sign-up-image">
-        <section>
+        <section id="sign-up-section">
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
                 <h2>Get in Touch <i class="fa-solid fa-check"></i></h2>
                 <p>If you are interested in finding out more information about the plans we have on offer, enter the form below and we will get back to you with more information.</p>
@@ -139,10 +139,13 @@
             </li>
         </ul>
     </footer>
+    <!-- Adapted from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <!--Font Awesome Script-->
-
     <script src="https://kit.fontawesome.com/aae00821c5.js" crossorigin="anonymous"></script>
+    <!--Back to top pf page Script-->
+    <script src="./assets/js/scripts.js"></script>
 </body>
 
 </html>
