@@ -128,6 +128,7 @@ h3 {
   }
 
 /* Services */
+/* Learned from https://cssgridgarden.com/ */
 
 #services-heading {
     height: auto;
@@ -280,5 +281,30 @@ footer {
     article {
         display: block;
         margin: 0 20px;
+    }
+
+    #gallery-container img {
+        max-width: 44em;
+        padding: 11px;
+    }
+
+    #sign-up-image {
+        height: 120vh;
+    }
+
+    .signup-form {
+        max-width: 400px;
+        padding: 19px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #sign-up-image {
+        height: 130vh;
+    }
+
+    .signup-form {
+    padding: 15px;
+    left: 0;
     }
 }
