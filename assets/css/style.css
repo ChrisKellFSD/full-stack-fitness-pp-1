@@ -100,7 +100,7 @@ h3 {
     padding-left: 34px;
     padding-top: 59px;
     background-color: rgba(0, 0, 0, 0.9);
-    bottom: 200px;
+    bottom: 10vh;
     position: absolute;
 }
 
@@ -262,4 +262,23 @@ footer {
     margin: 1%;
     padding: 10px;
     color: #fafafa;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 980px) {
+    article {
+        grid-column: span 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    article {
+        display: block;
+        margin: 0 20px;
+    }
 }
