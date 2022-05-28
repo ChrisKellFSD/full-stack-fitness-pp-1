@@ -6,6 +6,7 @@
     padding: 0;
     border: none;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -38,43 +39,65 @@ h3 {
 
 /* Navigation */
 
-.top-nav {
-    background-color: black;
-    height: 100px;
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    line-height: 50px;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: auto;
 }
 
-.logo-size {
-    float: left;
-    max-height: 70px;
-    margin-top: 15px;
-    margin-left: 30px;
+.brand-title {
+    max-height: 12vh;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
 }
 
-#menu {
-    font-size: 120%;
+.navbar-links {
+    height: 100%;
 }
 
-#menu {
-    line-height: 100px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
+.navbar-links ul {
+    display: flex;
     margin-right: 40px;
+    padding: 0;
 }
 
-#menu a {
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
     text-decoration: none;
     color: white;
+    padding: 1rem;
 }
 
-#menu a:hover {
-    font-weight: 700;
+.navbar-links li:hover {
+    background-color: #555;
 }
 
-.active {
-    font-weight: 900;
+.toggle-button {
+    position: absolute;
+    top: 2.5rem;
+    right: 2rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
 }
 
 /* Hero Image */
@@ -274,6 +297,39 @@ footer {
         grid-template-columns: 1fr 1fr;
         gap: 60px;
         align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
     }
 }
 
