@@ -50,6 +50,7 @@ h3 {
     color: white;
     height: auto;
     font-size: 120%;
+    z-index: 1;
 }
 
 .logo-main {
@@ -176,7 +177,6 @@ h3 {
     grid-gap: 60px;
     max-width: 1200px;
     margin: 20px auto;
-    padding-bottom: 50px
 }
 
 article img {
@@ -205,7 +205,6 @@ article img {
 }
 
 #gallery-container img:hover {
-    cursor: pointer;
     opacity: 0.5;
 }
 
@@ -225,9 +224,9 @@ article img {
 }
 
 .signup-form {
-    margin: 10vh;
+    margin: 10vh 1em;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     max-width: 600px;
     position: absolute;
     height: auto;
@@ -310,7 +309,7 @@ footer {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 875px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -364,9 +363,9 @@ footer {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 575px) {
     #sign-up-image {
-        height: 130vh;
+        height: 75vh;
     }
 
     .signup-form {
