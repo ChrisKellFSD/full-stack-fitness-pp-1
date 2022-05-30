@@ -1,6 +1,5 @@
 # Full Stack Fitness
-  <img src=assets/images/Responsive.JPG alt="responsive design">
-  <img src=assets/images/Responsive.JPG alt="responsive design">
+  <img src="assets/images/Responsive.JPG" alt="responsive design">
 
 
 Full Stack Fitness is a personal training/GYM website. It offers various services from personal training, online coacing and health & nutritional food planning. The aim of the website is to show a combination of sound HTML & CSS skills as well as clear design fundamentals with UX/UI design in mind.
@@ -12,19 +11,18 @@ Full Stack Fitness is a personal training/GYM website. It offers various service
   **Wireframe**
 
    Prior to code being writte, I planned out the design and layout of the site using https://www.lucidchart.com/.
-    <img src ="/workspace/full-stack-fitness-pp-1/wireframe/Full Stack Fitness.jpeg">
-   <img src="https://raw.githubusercontent.com/ChrisKellFSD/full-stack-fitness-pp-1/main/assets/images/Responsive.JPG">
+    <img src ="wireframe/Full Stack Fitness.jpeg">
    
    **Design**
 
    I created the logo for Full Stack Fitness with colours that would contrast well against a black background. I used adobe illustrator to do this. 
 
-  <img src=/workspace/full-stack-fitness-pp-1/assets/images/main-logo.JPG alt="Main logo">
+  <img src="assets/images/main-logo.JPG" alt="Main logo">
 
   **Colour Scheme**
 
    I used black and a cyan blue as the two main colours for the website. This combined with white for the text colour, really made a website that contrasted well.
-    <img src=/workspace/full-stack-fitness-pp-1/assets/images/colour-scheme.JPG alt="Colour Scheme">
+    <img src="assets/images/colour-scheme.JPG" alt="Colour Scheme">
 
   **Typography**
 
@@ -45,37 +43,37 @@ Full Stack Fitness is a personal training/GYM website. It offers various service
    * On the right hand side there are 4 links; Home, Services, Gallery and Sign-Up. These link to various sections on the page.
    * The logo and colour scheme was designed to to contrast well against a black background.
    * The navigation is designed to be clear and consise with the information for the website.
-   <img src=/workspace/full-stack-fitness-pp-1/assets/images/navbar-desktop.JPG alt="Navigation Bar">
+   <img src="assets/images/navbar-desktop.JPG" alt="Navigation Bar">
 
    **Services**
    * The services section gives the user an idea of the main types of services they can expect from this gym.
    * It is layed out in 3 columns, with clear imagery supported by relevant text.
-   <img src=/workspace/full-stack-fitness-pp-1/assets/images/services-section.JPG alt="Services section">
+   <img src="assets/images/services-section.JPG" alt="Services section">
 
 **Gallery**
    * The gallery section just had 5 images but is not only an area to showcase the high quality images of the gym but also acts as a design feature that compliments the flow of the site as well as seperating the services and sign-up section.
-   <img src=/workspace/full-stack-fitness-pp-1/assets/images/gallery.JPG alt="Gallery section">
+   <img src="assets/images/gallery.JPG" alt="Gallery section">
 
    **Sign-Up Form**
    * The sign up form is used to collect data from new users who are seeking information about the product and/or services the gym can provide.
    * The form collects the users First name, last name, email address and phone number.
    * The submit button text is replaced with 'find out more' to act as a friendly call to action.
-   <img src=/workspace/full-stack-fitness-pp-1/assets/images/signup-section.JPG alt="Sign-up section">
+   <img src="assets/images/signup-section.JPG" alt="Sign-up section">
 
    **Google Maps**
    * A google maps section was embedded so the user could quickly check location of the gym in relation to their area.
    * It was placed right below the sign up section so the user could check it as they were deciding whether or not to fill out the form.
-   <img src=/workspace/full-stack-fitness-pp-1/assets/images/google-maps.JPG alt="Google Maps section">
+   <img src="assets/images/google-maps.JPG" alt="Google Maps section">
 
    **Footer**
    * The footer section is small and does not hold a lot of additional information within it. It doesn provide the user the option to check out the gyms social media accounts.
    * At the moment, these link to the main social media company's homepage.
-   <img src=/workspace/full-stack-fitness-pp-1/assets/images/footer-section.JPG alt="Footer section">
+   <img src="assets/images/footer-section.JPG" alt="Footer section">
 
   **Scroll to the top button**
    * I implemented a scroll to the top button to assist the user with the flow of the website in case they wanted to reach the top of the page quickly.
 
-   <img src=/workspace/full-stack-fitness-pp-1/assets/images/scroll-button.JPG alt="Scroll button">
+   <img src="assets/images/scroll-button.JPG" alt="Scroll button">
 
    ---
 
@@ -88,11 +86,11 @@ Full Stack Fitness is a personal training/GYM website. It offers various service
 
 **Validators**
 * The html was validated with Nu HTML Checker.
-<img src="/workspace/full-stack-fitness-pp-1/assets/images/html-checker.JPG">
+<img src="assets/images/html-checker.JPG">
 * CSS was validated using W3C CSS Validator.
-<img src="/workspace/full-stack-fitness-pp-1/assets/images/css-checker.JPG">
+<img src="assets/images/css-checker.JPG">
 * Lighthouse was used in chrome dev tools to assess its varying perfomance indicators.
-<img src="/workspace/full-stack-fitness-pp-1/assets/images/lighthouse.JPG">
+<img src="assets/images/lighthouse.JPG">
 
 
    
