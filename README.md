@@ -1,5 +1,8 @@
 # Full Stack Fitness
-  <img src=/workspace/full-stack-fitness-pp-1/assets/images/Responsive.JPG alt="responsive design">
+  <img src=assets/images/Responsive.JPG alt="responsive design">
+  <img src=assets/images/Responsive.JPG alt="responsive design">
+
+
 Full Stack Fitness is a personal training/GYM website. It offers various services from personal training, online coacing and health & nutritional food planning. The aim of the website is to show a combination of sound HTML & CSS skills as well as clear design fundamentals with UX/UI design in mind.
 
 ---
@@ -10,7 +13,7 @@ Full Stack Fitness is a personal training/GYM website. It offers various service
 
    Prior to code being writte, I planned out the design and layout of the site using https://www.lucidchart.com/.
     <img src ="/workspace/full-stack-fitness-pp-1/wireframe/Full Stack Fitness.jpeg">
-
+   <img src="https://raw.githubusercontent.com/ChrisKellFSD/full-stack-fitness-pp-1/main/assets/images/Responsive.JPG">
    
    **Design**
 
@@ -131,4 +134,5 @@ Full Stack Fitness is a personal training/GYM website. It offers various service
 
    **Acknowledgements**
    * I would like to thank <a href="https://github.com/10xOXR">Chris Quinn</a> for helping me throughout this project. His guide and insight helped me greatly along the way and it is very much appreciated.
+
    
