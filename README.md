@@ -1,108 +1,134 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Full Stack Fitness
+  <img src=/workspace/full-stack-fitness-pp-1/assets/images/Responsive.JPG alt="responsive design">
+Full Stack Fitness is a personal training/GYM website. It offers various services from personal training, online coacing and health & nutritional food planning. The aim of the website is to show a combination of sound HTML & CSS skills as well as clear design fundamentals with UX/UI design in mind.
 
-Welcome ChrisKellFSD,
+---
+## UX
+   This website was designed as a single page website with the aim of being clear and concise. It utilises sound user experience design, with a  aim of giving the user all the information it needs without the need of multiple pages.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+  **Wireframe**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+   Prior to code being writte, I planned out the design and layout of the site using https://www.lucidchart.com/.
+    <img src ="/workspace/full-stack-fitness-pp-1/wireframe/Full Stack Fitness.jpeg">
 
-## Gitpod Reminders
+   
+   **Design**
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+   I created the logo for Full Stack Fitness with colours that would contrast well against a black background. I used adobe illustrator to do this. 
 
-`python3 -m http.server`
+  <img src=/workspace/full-stack-fitness-pp-1/assets/images/main-logo.JPG alt="Main logo">
 
-A blue button should appear to click: _Make Public_,
+  **Colour Scheme**
 
-Another blue button should appear to click: _Open Browser_.
+   I used black and a cyan blue as the two main colours for the website. This combined with white for the text colour, really made a website that contrasted well.
+    <img src=/workspace/full-stack-fitness-pp-1/assets/images/colour-scheme.JPG alt="Colour Scheme">
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  **Typography**
 
-A blue button should appear to click: _Make Public_,
+   The fonts I used for this was 'Poppins' for the main headings and 'Lato' for the body of text.
 
-Another blue button should appear to click: _Open Browser_.
+   Fonts were downloaded from https://fonts.google.com/
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+   I also used icons in the services, signup and footer section.
 
-To log into the Heroku toolbelt CLI:
+   Icons were used from https://fontawesome.com/
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+   --- 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
+**Navigation**
+   * The entire website is a single HTML page. 
+   * Featured at the top of the page is a navigation bar which shows the Full Stack Fitness logo on the left side.
+   * On the right hand side there are 4 links; Home, Services, Gallery and Sign-Up. These link to various sections on the page.
+   * The logo and colour scheme was designed to to contrast well against a black background.
+   * The navigation is designed to be clear and consise with the information for the website.
+   <img src=/workspace/full-stack-fitness-pp-1/assets/images/navbar-desktop.JPG alt="Navigation Bar">
 
-------
+   **Services**
+   * The services section gives the user an idea of the main types of services they can expect from this gym.
+   * It is layed out in 3 columns, with clear imagery supported by relevant text.
+   <img src=/workspace/full-stack-fitness-pp-1/assets/images/services-section.JPG alt="Services section">
 
-## Release History
+**Gallery**
+   * The gallery section just had 5 images but is not only an area to showcase the high quality images of the gym but also acts as a design feature that compliments the flow of the site as well as seperating the services and sign-up section.
+   <img src=/workspace/full-stack-fitness-pp-1/assets/images/gallery.JPG alt="Gallery section">
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+   **Sign-Up Form**
+   * The sign up form is used to collect data from new users who are seeking information about the product and/or services the gym can provide.
+   * The form collects the users First name, last name, email address and phone number.
+   * The submit button text is replaced with 'find out more' to act as a friendly call to action.
+   <img src=/workspace/full-stack-fitness-pp-1/assets/images/signup-section.JPG alt="Sign-up section">
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+   **Google Maps**
+   * A google maps section was embedded so the user could quickly check location of the gym in relation to their area.
+   * It was placed right below the sign up section so the user could check it as they were deciding whether or not to fill out the form.
+   <img src=/workspace/full-stack-fitness-pp-1/assets/images/google-maps.JPG alt="Google Maps section">
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+   **Footer**
+   * The footer section is small and does not hold a lot of additional information within it. It doesn provide the user the option to check out the gyms social media accounts.
+   * At the moment, these link to the main social media company's homepage.
+   <img src=/workspace/full-stack-fitness-pp-1/assets/images/footer-section.JPG alt="Footer section">
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  **Scroll to the top button**
+   * I implemented a scroll to the top button to assist the user with the flow of the website in case they wanted to reach the top of the page quickly.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+   <img src=/workspace/full-stack-fitness-pp-1/assets/images/scroll-button.JPG alt="Scroll button">
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+   ---
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+* I tested that this website works in different browsers: Chrome, Firefox, Safari
+* I confirmed that this project is responsive on various screen sizes using chrome developer tools.
+* I confirmed that all the text is easily read and the contrast of the website is clear.
+* I have tested that the signup form works and requires all fields to be filled out before it can be submitted.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Validators**
+* The html was validated with Nu HTML Checker.
+<img src="/workspace/full-stack-fitness-pp-1/assets/images/html-checker.JPG">
+* CSS was validated using W3C CSS Validator.
+<img src="/workspace/full-stack-fitness-pp-1/assets/images/css-checker.JPG">
+* Lighthouse was used in chrome dev tools to assess its varying perfomance indicators.
+<img src="/workspace/full-stack-fitness-pp-1/assets/images/lighthouse.JPG">
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+   
+   ---
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Technologies used
+   * HTML
+   * CSS
+   * Javascript
+   * Adobe Illustrator
+   * Adobe Photoshop
+   * Google Fonts
+   * Font Awesome
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+   ---
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Deployment
+  * The site was deployed to GitHub pages by using the following steps:
+    * In the GitHub repository, navigate over to the settings tab
+    * From there, click on the 'Pages' tab.
+    * Then click on the source section and select the Master Branch.
+    * Once you have clicked on Master Branch, a live link of the website will be provided for you.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+  * You can find the link to the live website here: https://chriskellfsd.github.io/full-stack-fitness-pp-1/
 
 ---
 
-Happy coding!
+   ## Credits
+   **Media**
+   * The images that were used on the site were all sourced from https://freepik.com/
+
+   **Content**
+   * The code for the Nav Bar was adapted from the following tutorial: https://www.youtube.com/watch?v=At4B7A4GOPg 
+   * The services section was done using grid, learned mainly from playing the css game: https://cssgridgarden.com/
+   * The footer section code was used from the CI <a href="https://github.com/ChrisKellFSD/love-running">Love Running</a> Project.
+   * The scroll back to the top button was adapted from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+
+   ---
+
+   **Acknowledgements**
+   * I would like to thank <a href="https://github.com/10xOXR">Chris Quinn</a> for helping me throughout this project. His guide and insight helped me greatly along the way and it is very much appreciated.
+   

@@ -116,7 +116,7 @@ h3 {
 #hero-image {
     height: 90vh;
     width: 100%;
-    background: url('../images/main-gym-website-banner.jpg') no-repeat center center;
+    background: url('../images/main-gym-website-banner.webp') no-repeat center center;
     background-size: cover;
     border-top-style: solid;
     border-top-color: rgb(0, 222, 231);
@@ -155,11 +155,11 @@ h3 {
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
-  }
-  
-  #myBtn:hover {
+}
+
+#myBtn:hover {
     background-color: rgb(6, 59, 61);
-  }
+}
 
 /* Services */
 /* Learned from https://cssgridgarden.com/ */
@@ -168,7 +168,8 @@ h3 {
     height: auto;
     width: 100%;
     text-align: center;
-    padding-top: 50px;;
+    padding-top: 50px;
+    ;
 }
 
 .services-container {
@@ -184,7 +185,8 @@ article img {
     border-bottom: 4px solid rgb(0, 222, 231);
 }
 
-.services-container h3, p {
+.services-container h3,
+p {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -209,6 +211,7 @@ article img {
 }
 
 /* Sign-Up */
+/* Adapted from CI: Signup Forms-Challenge */
 
 #sign-up-image {
     height: 110vh;
@@ -234,7 +237,8 @@ article img {
     padding: 30px;
 }
 
-.signup-form > h2, p {
+.signup-form>h2,
+p {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -264,7 +268,7 @@ article img {
 .submit-button:hover {
     background-color: rgb(6, 59, 61);
     font-weight: 700;
-  }
+}
 
 /* Google Map */
 
@@ -277,6 +281,7 @@ article img {
 }
 
 /* Footer */
+/* Adapted from CI: Love Running */
 
 footer {
     height: 70px;
@@ -287,7 +292,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -369,8 +374,8 @@ footer {
     }
 
     .signup-form {
-    padding: 15px;
-    left: 0;
+        padding: 15px;
+        left: 0;
     }
 
     .navbar .logo-main {
